@@ -5,7 +5,7 @@ const UserRoutes = require('./user-routes');
 
 //add prefix
 
-router.use('./users',UserRoutes);
+router.use('/users',UserRoutes);
 
 
 module.exports = router;
