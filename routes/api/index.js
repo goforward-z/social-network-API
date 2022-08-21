@@ -1,11 +1,11 @@
 //connecting routes to the server
 const router = require('express').Router();
-const UserRoutes = require('./user-routes');
+const userRoutes = require('./user-routes');
 
 
 //add prefix
 
-router.use('/users',UserRoutes);
+router.use('/users',userRoutes);
 
 
 module.exports = router;
