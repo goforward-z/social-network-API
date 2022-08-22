@@ -12,6 +12,23 @@ const userController = {
             res.status(500).json(err);
         });
     },
+    //get user by id
+    getUserById({ params }, res ) {
+        User.findOne ({_id: params.id})
+        .select('-__v')
+        //return if no suer is found
+        .then(dbUserData => {
+            if(!dbUserData) {
+                res.status(404).json({ message: 'No user found by this id!'});
+                return;
+            }
+            res.json(dbUserData)
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(400).json(err)
+        })
+    },
     //create a new user
     createUser ({ body }, res) {
         User.create(body)
