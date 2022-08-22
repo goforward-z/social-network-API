@@ -12,7 +12,7 @@ This project is an API for a social network web application where users can shar
 * [Questions](#questions)
 
 ## Installation 
-The user should clone the repository from GitHub. This application requires Express, MongoDB, and Mongoose. Make sure your local device has MongoDB installed. Then clone git repository and run `npm install i`. Once dependencies are installed run `npm start` to connect to server.
+The user should clone the repository from GitHub. This application requires Express, MongoDB, and Mongoose. Make sure your local device has MongoDB installed. Then clone git repository and run `npm i`. Once dependencies are installed run `npm start` to connect to server.
 
 ## Usage 
 This application demonstrates the database for a social networking application. API routes are tested through Insomnia Core.<br>
