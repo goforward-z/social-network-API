@@ -1,4 +1,5 @@
 # social-network-API
+![License Badge](https://img.shields.io/github/license/goforward-z/social-network-API) ![Top Language](https://img.shields.io/github/languages/top/goforward-z/social-network-API)
 
 ## Description 
 This project is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses MongoDB, Express.js, and Mongoose. 
@@ -17,6 +18,7 @@ The user should clone the repository from GitHub. This application requires Expr
 ## Usage 
 This application demonstrates the database for a social networking application. API routes are tested through Insomnia Core.<br>
 Please view walk through videos to demonstrate the API routes.<br>
+[Screencastify](https://drive.google.com/file/d/1iuIW7iyR33GAqiAsOmSpfGXNKo18CzYa/view)
 
 ## License 
 This project is license under MIT
