@@ -14,6 +14,14 @@ const UserSchema = new Schema ({
         //match a valid email address
         match: [/.+\@.+\..+/]
     },
+     // subdocument for thoughts 
+     thoughts: [
+        {
+            type: Schema.Types.ObjectId,
+            // referring to the thought document model 
+            ref: 'Thought'
+        }
+        ],
     friends: [
         {
             type: Schema.Types.ObjectId,
