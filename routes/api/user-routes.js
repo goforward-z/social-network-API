@@ -4,6 +4,7 @@ const router = require('express'). Router();
 const {
     getAllUsers,
     getUserById,
+    updateUser,
     createUser
 } = require('../../controllers/user-controller');
 
@@ -17,6 +18,7 @@ router
 router
 .route('/:id')
 .get(getUserById)
+.put(updateUser);
 
 
 module.exports = router;
