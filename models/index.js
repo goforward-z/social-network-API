@@ -1,5 +1,6 @@
 const User = require('./User');
+const Thought = require('./Thought');
 
 //exporting models
 
-module.exports = {User}
+module.exports = {User,Thought}
